@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Zen+Maru+Gothic:wght@300&display=swap" rel="stylesheet">
+    <style>
+        .imageContainer {
+            display: flex;
+            justify-content: space-between;
+        }
+        .imageContainer img {
+            flex: 1;
+            width: 100%;
+            height: auto;
+        }
+        body {
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+        }
+        h1 {
+            text-align: center;
+            font-size: 75px;
+            font-family: 'Zen Maru Gothic', serif;
+        }
+        .fadein img {
+            opacity:0.5;
+            transition: 1s ease;
+        }
+
+        .fadein img:hover {
+            opacity:1;
+            transition: 1s ease;
+        }
+    </style>
+    <head>
+        <link rel="icon" type="image/png" href="photos/646345f74648fab8dc75574e_53.png"/>
+        <title>michelle day</title>
+    </head>
+    <body>
+        <h1>Open the presents!</h1>
+
+        <div class="imageContainer fadein">
+            <a href="videoEdit/vid.html">
+                <img src="photos/vidPresent.png">
+            </a>
+            <a href="giftcard/giftcard.html">
+                <img src="photos/snBag.png">
+            </a>
+            <a href="letter/letter.html">
+                <img src="photos/letter.png">
+            </a>
+        </div>
+    </body>
+</html>
