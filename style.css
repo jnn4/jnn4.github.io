@@ -1,0 +1,27 @@
+.imageContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.imageContainer img {
+    flex: 1;
+    width: 100%;
+    height: auto;
+}
+body {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Zen Maru Gothic', serif;
+}
+.fadein img {
+    opacity:0.1;
+    transition: 1s ease;
+}
+
+.fadein img:hover {
+    opacity:1;
+    transition: 1s ease;
+}
